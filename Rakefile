@@ -4,7 +4,7 @@ require 'rake/testtask'
 desc 'Iniciando servidor Appium'
 task :default do
   puts 'iniciando server do appium'
-  system 'nohup appium &'
+  system './node_modules/.bin/appium --log-level info > appium_log.txt &'
   sleep(4)
 end
 
