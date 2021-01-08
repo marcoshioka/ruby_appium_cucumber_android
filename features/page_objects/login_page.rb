@@ -49,11 +49,11 @@ class Login_page
     if ENV['device_real']
       find_element(id: @campo_senha).send_keys('R1234567')
       find_element(id: @botao_entrar).click
-      $wait.until { find_element(id: @permitir_fretebras).displayed? }
+      $wait.until { find_element(id: @confirma_acesso).displayed? }
     else #emulador
       find_element(id: @campo_senha).send_keys('R1234567')
       find_element(id: @botao_entrar).click
-      $wait.until { find_element(id: @permitir_fretebras).displayed? }
+      $wait.until { find_element(id: @confirma_acesso).displayed? }
     end
   end
 
