@@ -43,7 +43,13 @@ android:
 
 install:
   - rvm use 2.6.0 --install --binary --fuzzy
-  - bundle update --bundler
+  - apt-get -y update
+  - gem update --system
+  - gem uninstall bundler
+  - rm /usr/local/bin/bundle
+  - rm /usr/local/bin/bundler
+  - gem install bundler
+              
   - bundle install
   - bundle install --deployment
   
