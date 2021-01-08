@@ -10,7 +10,7 @@ end
 
 desc 'Executando testes no Android'
 task :android do
-  sh "bundle exec cucumber --tags='@fretebras'"
+  sh "cucumber --tags='@fretebras'"
 end
 
 desc 'Fechando conexão com o servidor Appium'
