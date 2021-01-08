@@ -19,3 +19,5 @@ task :close_appium_server do
   system "ps -ef | grep -v grep | grep appium | awk '{print $2}' |
   xargs kill -9"
 end
+
+task :cucumber_android_emulator => [:default, :android, :close_appium_server]

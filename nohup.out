@@ -7,3 +7,935 @@ Fatal Error: listen EADDRINUSE: address already in use 0.0.0.0:4723
     at listenInCluster (net.js:1357:12)
     at doListen (net.js:1496:7)
     at processTicksAndRejections (internal/process/task_queues.js:85:21)
+(node:14814) ExperimentalWarning: Package name self resolution is an experimental feature. This feature could change at any time
+(node:14814) ExperimentalWarning: Conditional exports is an experimental feature. This feature could change at any time
+[35m[Appium][39m Welcome to Appium v1.19.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 0.0.0.0:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at doListen (net.js:1496:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21)
+(node:15003) ExperimentalWarning: Package name self resolution is an experimental feature. This feature could change at any time
+(node:15003) ExperimentalWarning: Conditional exports is an experimental feature. This feature could change at any time
+[35m[Appium][39m Welcome to Appium v1.19.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 0.0.0.0:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at doListen (net.js:1496:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21)
+(node:15824) ExperimentalWarning: Package name self resolution is an experimental feature. This feature could change at any time
+(node:15824) ExperimentalWarning: Conditional exports is an experimental feature. This feature could change at any time
+[35m[Appium][39m Welcome to Appium v1.19.1
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
+[debug] [35m[HTTP][39m Request idempotency key: 89964d59-5c5b-426a-9fb8-13b422528178
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"platformName":"Android","deviceName":"Pixel 4 API 28","app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"},"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"Pixel 4 API 28","appium:app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"Pixel 4 API 28","app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"},null,{"firstMatch":[{"platformName":"Android","appium:deviceName":"Pixel 4 API 28","appium:app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1610120948833 (13:49:08 GMT-0200 (Horário de Verão de Brasília))
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[Appium][39m Appium v1.19.1 creating new AndroidUiautomator2Driver (v1.59.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Pixel 4 API 28",
+[debug] [35m[BaseDriver][39m     "appium:app": "/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 99af6ef3-9996-4658-b81e-5b0d55dc009f
+[35m[BaseDriver][39m Using local app '/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[35m[ADB][39m Found 2 'build-tools' folders under '/home/marcos/Library/AndroidStudio/sdk' (newest first):
+[35m[ADB][39m     /home/marcos/Library/AndroidStudio/sdk/build-tools/29.0.2
+[35m[ADB][39m     /home/marcos/Library/AndroidStudio/sdk/build-tools/28.0.3
+[35m[ADB][39m Using 'adb' from '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 start-server'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb' from '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 start-server'
+[debug] [35m[ADB][39m Setting device id to emulator-5554
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 28
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 9
+[debug] [35m[ADB][39m Device API level: 28
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[debug] [35m[AndroidDriver][39m Parsing package and activity from app manifest
+[35m[ADB][39m Package name: 'br.lgfelicio'
+[35m[ADB][39m Main activity name: 'br.lgfelicio.views.atividades.abertura.ActivitySplashScreen'
+[debug] [35m[AndroidDriver][39m Parsed package and activity are: br.lgfelicio/br.lgfelicio.views.atividades.abertura.ActivitySplashScreen
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.2.1' >= '3.2.1')
+[debug] [35m[ADB][39m There is no need to install/upgrade '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[Logcat][39m Starting logs capture with command: /home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[debug] [35m[ADB][39m Forwarding system: 8200 to device: 6790
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m 'io.appium.uiautomator2.server' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m The installed 'io.appium.uiautomator2.server' package is older than '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.15.0.apk' (41 < 73 or '4.3.0' < '4.15.0')'
+[debug] [35m[UiAutomator2][39m io.appium.uiautomator2.server installation state: olderVersionInstalled
+[debug] [35m[ADB][39m Checking app cert for /home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.15.0.apk
+[35m[ADB][39m Using 'apksigner.jar' from '/home/marcos/Library/AndroidStudio/sdk/build-tools/29.0.2/lib/apksigner.jar'
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[debug] [35m[WD Proxy][39m Matched '/' to command name 'deleteSession'
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop br.lgfelicio'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 8200 
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:8200'
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1610120951141 (13:49:11 GMT-0200 (Horário de Verão de Brasília))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Cannot verify the signature of '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.15.0.apk'. Original error: The JAVA_HOME environment variable must be set for Android Tools to work properly
+[debug] [35m[W3C][39m     at ADB.checkApkCert (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/apk-signing.js:267:11)
+[debug] [35m[W3C][39m Destroying socket connection
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m2365 ms - 1061[39m
+[35m[HTTP][39m [90m[39m
+(node:16896) ExperimentalWarning: Package name self resolution is an experimental feature. This feature could change at any time
+(node:16896) ExperimentalWarning: Conditional exports is an experimental feature. This feature could change at any time
+[35m[Appium][39m Welcome to Appium v1.19.1
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
+[debug] [35m[HTTP][39m Request idempotency key: 1062bb3c-8a31-4e4d-8443-bbe48605cd31
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"platformName":"Android","deviceName":"Pixel 4 API 28","app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"},"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"Pixel 4 API 28","appium:app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"Pixel 4 API 28","app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"},null,{"firstMatch":[{"platformName":"Android","appium:deviceName":"Pixel 4 API 28","appium:app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1610121070281 (13:51:10 GMT-0200 (Horário de Verão de Brasília))
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[Appium][39m Appium v1.19.1 creating new AndroidUiautomator2Driver (v1.59.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Pixel 4 API 28",
+[debug] [35m[BaseDriver][39m     "appium:app": "/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 0921d165-0ca6-46ae-8278-094809364587
+[35m[BaseDriver][39m Using local app '/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[35m[ADB][39m Found 2 'build-tools' folders under '/home/marcos/Library/AndroidStudio/sdk' (newest first):
+[35m[ADB][39m     /home/marcos/Library/AndroidStudio/sdk/build-tools/29.0.2
+[35m[ADB][39m     /home/marcos/Library/AndroidStudio/sdk/build-tools/28.0.3
+[35m[ADB][39m Using 'adb' from '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 start-server'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1610121090622 (13:51:30 GMT-0200 (Horário de Verão de Brasília))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Could not find a connected Android device in 20092ms.
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:266:13)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:18)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:283:12)
+[debug] [35m[W3C][39m Destroying socket connection
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m20430 ms - 635[39m
+[35m[HTTP][39m [90m[39m
+(node:17510) ExperimentalWarning: Package name self resolution is an experimental feature. This feature could change at any time
+(node:17510) ExperimentalWarning: Conditional exports is an experimental feature. This feature could change at any time
+[35m[Appium][39m Welcome to Appium v1.19.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 0.0.0.0:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at doListen (net.js:1496:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21)
+[debug] [35m[HTTP][39m Request idempotency key: 47daa622-9ec3-478e-847e-9982330447a2
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"platformName":"Android","deviceName":"Pixel 4 API 28","app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"},"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"Pixel 4 API 28","appium:app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"Pixel 4 API 28","app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"},null,{"firstMatch":[{"platformName":"Android","appium:deviceName":"Pixel 4 API 28","appium:app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1610121131724 (13:52:11 GMT-0200 (Horário de Verão de Brasília))
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[Appium][39m Appium v1.19.1 creating new AndroidUiautomator2Driver (v1.59.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Pixel 4 API 28",
+[debug] [35m[BaseDriver][39m     "appium:app": "/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 0cb04ab7-b93e-4e23-955c-c1abbf7df431
+[35m[BaseDriver][39m Using local app '/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[35m[ADB][39m Using 'adb' from '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 start-server'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb' from '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 start-server'
+[debug] [35m[ADB][39m Setting device id to emulator-5554
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 28
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 9
+[debug] [35m[ADB][39m Device API level: 28
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[debug] [35m[AndroidDriver][39m Parsing package and activity from app manifest
+[35m[ADB][39m Package name: 'br.lgfelicio'
+[35m[ADB][39m Main activity name: 'br.lgfelicio.views.atividades.abertura.ActivitySplashScreen'
+[debug] [35m[AndroidDriver][39m Parsed package and activity are: br.lgfelicio/br.lgfelicio.views.atividades.abertura.ActivitySplashScreen
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.2.1' >= '3.2.1')
+[debug] [35m[ADB][39m There is no need to install/upgrade '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[Logcat][39m Starting logs capture with command: /home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[debug] [35m[ADB][39m Forwarding system: 8200 to device: 6790
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m 'io.appium.uiautomator2.server' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m The installed 'io.appium.uiautomator2.server' package is older than '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.15.0.apk' (41 < 73 or '4.3.0' < '4.15.0')'
+[debug] [35m[UiAutomator2][39m io.appium.uiautomator2.server installation state: olderVersionInstalled
+[debug] [35m[ADB][39m Checking app cert for /home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.15.0.apk
+[35m[ADB][39m Using 'apksigner.jar' from '/home/marcos/Library/AndroidStudio/sdk/build-tools/29.0.2/lib/apksigner.jar'
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[debug] [35m[WD Proxy][39m Matched '/' to command name 'deleteSession'
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop br.lgfelicio'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 8200 
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:8200'
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1610121132174 (13:52:12 GMT-0200 (Horário de Verão de Brasília))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Cannot verify the signature of '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.15.0.apk'. Original error: The JAVA_HOME environment variable must be set for Android Tools to work properly
+[debug] [35m[W3C][39m     at ADB.checkApkCert (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/apk-signing.js:267:11)
+[debug] [35m[W3C][39m Destroying socket connection
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m456 ms - 1061[39m
+[35m[HTTP][39m [90m[39m
+(node:17679) ExperimentalWarning: Package name self resolution is an experimental feature. This feature could change at any time
+(node:17679) ExperimentalWarning: Conditional exports is an experimental feature. This feature could change at any time
+[35m[Appium][39m Welcome to Appium v1.19.1
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
+[debug] [35m[HTTP][39m Request idempotency key: e8d21055-541a-4ec3-8569-2090633eb605
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"platformName":"Android","deviceName":"Pixel 4 API 28","app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"},"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"Pixel 4 API 28","appium:app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"Pixel 4 API 28","app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"},null,{"firstMatch":[{"platformName":"Android","appium:deviceName":"Pixel 4 API 28","appium:app":"/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1610121156364 (13:52:36 GMT-0200 (Horário de Verão de Brasília))
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[Appium][39m Appium v1.19.1 creating new AndroidUiautomator2Driver (v1.59.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Pixel 4 API 28",
+[debug] [35m[BaseDriver][39m     "appium:app": "/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 88357d2b-121e-44db-829a-0e5cd6718e02
+[35m[BaseDriver][39m Using local app '/home/marcos/Downloads/ruby_appium_cucumber_android/build/Fretebras_v10.34.0_apkpure.com.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[35m[ADB][39m Found 2 'build-tools' folders under '/home/marcos/Library/AndroidStudio/sdk' (newest first):
+[35m[ADB][39m     /home/marcos/Library/AndroidStudio/sdk/build-tools/29.0.2
+[35m[ADB][39m     /home/marcos/Library/AndroidStudio/sdk/build-tools/28.0.3
+[35m[ADB][39m Using 'adb' from '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 start-server'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb' from '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 start-server'
+[debug] [35m[ADB][39m Setting device id to emulator-5554
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 28
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 9
+[debug] [35m[ADB][39m Device API level: 28
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[debug] [35m[AndroidDriver][39m Parsing package and activity from app manifest
+[35m[ADB][39m Package name: 'br.lgfelicio'
+[35m[ADB][39m Main activity name: 'br.lgfelicio.views.atividades.abertura.ActivitySplashScreen'
+[debug] [35m[AndroidDriver][39m Parsed package and activity are: br.lgfelicio/br.lgfelicio.views.atividades.abertura.ActivitySplashScreen
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.2.1' >= '3.2.1')
+[debug] [35m[ADB][39m There is no need to install/upgrade '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[Logcat][39m Starting logs capture with command: /home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[debug] [35m[ADB][39m Forwarding system: 8200 to device: 6790
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m 'io.appium.uiautomator2.server' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m The installed 'io.appium.uiautomator2.server' package is older than '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.15.0.apk' (41 < 73 or '4.3.0' < '4.15.0')'
+[debug] [35m[UiAutomator2][39m io.appium.uiautomator2.server installation state: olderVersionInstalled
+[debug] [35m[ADB][39m Checking app cert for /home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.15.0.apk
+[35m[ADB][39m Using 'apksigner.jar' from '/home/marcos/Library/AndroidStudio/sdk/build-tools/29.0.2/lib/apksigner.jar'
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[debug] [35m[WD Proxy][39m Matched '/' to command name 'deleteSession'
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop br.lgfelicio'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 8200 
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:8200'
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[debug] [35m[ADB][39m Running '/home/marcos/Library/AndroidStudio/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1610121157098 (13:52:37 GMT-0200 (Horário de Verão de Brasília))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Cannot verify the signature of '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.15.0.apk'. Original error: The JAVA_HOME environment variable must be set for Android Tools to work properly
+[debug] [35m[W3C][39m     at ADB.checkApkCert (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-adb/lib/tools/apk-signing.js:267:11)
+[debug] [35m[W3C][39m Destroying socket connection
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m788 ms - 1061[39m
+[35m[HTTP][39m [90m[39m
+(node:18077) ExperimentalWarning: Package name self resolution is an experimental feature. This feature could change at any time
+(node:18077) ExperimentalWarning: Conditional exports is an experimental feature. This feature could change at any time
+[35m[Appium][39m Welcome to Appium v1.19.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 0.0.0.0:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at doListen (net.js:1496:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21)

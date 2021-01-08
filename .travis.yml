@@ -60,7 +60,7 @@ before_script:
 
    
 script: 
-  - bundle exec rake android
+  - bundle exec rake cucumber_android_emulator
 
 
 after_success:
