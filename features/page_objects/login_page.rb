@@ -21,12 +21,12 @@ class Login_page
 
   def acessa_app
     if ENV['device_real']
-      $wait.until { find_element(id: @logo_inicial).displayed? }
+      #$wait.until { find_element(id: @logo_inicial).displayed? }
       $wait.until { find_element(id: @botao_comecar).displayed? }
       find_element(id: @botao_comecar).click
       $wait.until { find_element(id: @texto_placa).displayed? }
     else #emulador
-      $wait.until { find_element(id: @logo_inicial).displayed? }
+      #$wait.until { find_element(id: @logo_inicial).displayed? }
       $wait.until { find_element(id: @botao_comecar).displayed? }
       find_element(id: @botao_comecar).click
       $wait.until { find_element(id: @texto_placa).displayed? }
