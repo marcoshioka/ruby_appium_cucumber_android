@@ -60,6 +60,7 @@ before_script:
 
    
 script: 
+  - npm link and npm link appium-uiautomator2-driver
   - adb devices
   - bundle exec rake cucumber_android_emulator
 
