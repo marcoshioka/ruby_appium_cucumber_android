@@ -1,0 +1,5 @@
+# Ignora todos os screenshots gerados na execução dos testes (png)
+*.png
+
+# Ignora todos os vídeos gerados na execução dos testes (mp4)
+*.mp4
