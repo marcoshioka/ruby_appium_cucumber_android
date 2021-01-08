@@ -9,6 +9,3 @@ Appium::Driver.new(caps, true)
 Appium.promote_appium_methods Object
 
 $VERBOSE = nil
-
-manage.timeouts.implicit_wait = 90
-

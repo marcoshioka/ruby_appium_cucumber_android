@@ -61,6 +61,7 @@ before_script:
    
 script: 
   - adb devices
+  - android-wait-for-emulator
   - bundle exec rake cucumber_android_emulator
 
 
