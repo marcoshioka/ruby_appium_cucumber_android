@@ -44,6 +44,7 @@ android:
 install:
   - rvm use 2.6.0 --install --binary --fuzzy
   - gem update --system
+  
   - bundle install
   - bundle install --deployment
   
