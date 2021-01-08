@@ -2,4 +2,4 @@
 platformName = "Android"
 deviceName = 'Pixel 4 API 28'
 app = "./build/Fretebras_v10.34.0_apkpure.com.apk"
-appWaitForLaunch = false
+appWaitDuration = 120000
