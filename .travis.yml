@@ -60,6 +60,8 @@ before_script:
 
    
 script: 
+  - adb kill-server
+  - adb start-server
   - adb devices
   - bundle exec rake cucumber_android_emulator
 
