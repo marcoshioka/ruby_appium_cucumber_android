@@ -9,4 +9,3 @@ After do
 end
 
 $wait = Selenium::WebDriver::Wait.new(:timeout => 90)
-
