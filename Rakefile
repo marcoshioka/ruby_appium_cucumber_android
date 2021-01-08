@@ -8,6 +8,11 @@ task :default do
   sleep(4)
 end
 
+desc 'Verificando se emulador Android está ativo'
+task :status do
+  sh 'android-wait-for-emulator'
+end
+
 desc 'Executando testes no Android'
 task :android do
   sh "cucumber --tags='@fretebras'"
@@ -20,4 +25,4 @@ task :close_appium_server do
   xargs kill -9"
 end
 
-task :cucumber_android_emulator => [:default, :android, :close_appium_server]
+task :cucumber_android_emulator => [:default,:status, :android, :close_appium_server]
