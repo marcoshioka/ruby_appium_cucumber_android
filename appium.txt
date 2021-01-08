@@ -3,5 +3,5 @@ platformName = "Android"
 deviceName = 'Pixel 4 API 28'
 app = "./build/Fretebras_v10.34.0_apkpure.com.apk"
 appWaitDuration = 120000
-uiautomator2ServerInstallTimeout = 180000
+uiautomator2ServerInstallTimeout = 300000
 autoGrantPermissions = true
