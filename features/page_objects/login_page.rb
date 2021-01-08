@@ -60,13 +60,9 @@ class Login_page
   def permitir_acesso
     if ENV['device_real']
       find_element(id: @confirma_acesso).click
-      $wait.until { find_element(id: @mensagem_localizacao).displayed? }
-      find_element(id: @confirma_permissao).click
       $wait.until { find_element(id: @logo_home).displayed? }
     else #emulador
       find_element(id: @confirma_acesso).click
-      $wait.until { find_element(id: @mensagem_localizacao_emulador).displayed? }
-      find_element(id: @confirma_permissao_emulador).click
       $wait.until { find_element(id: @logo_home).displayed? }
     end
   end
