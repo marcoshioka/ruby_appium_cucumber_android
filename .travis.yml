@@ -39,6 +39,7 @@ android:
   - sys-img-armeabi-v7a-android-24
 
 install:
+  - gem install bundler
   - bundle install
   - bundle install --deployment
   
