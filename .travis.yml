@@ -42,6 +42,7 @@ android:
   - sys-img-armeabi-v7a-android-24
 
 install:
+  - rvm use 2.6.0 --install --binary --fuzzy
   - bundle install
   - bundle install --deployment
   
