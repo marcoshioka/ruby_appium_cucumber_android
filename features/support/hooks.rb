@@ -8,5 +8,5 @@ After do
   driver.driver_quit
 end
 
-$wait = Selenium::WebDriver::Wait.new(:timeout => 60)
+$wait = Selenium::WebDriver::Wait.new(:timeout => 90)
 
