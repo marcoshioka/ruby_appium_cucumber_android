@@ -67,3 +67,10 @@ script:
 
 after_success:
   - bash echo "Execução finalizada com sucesso"
+
+addons:
+  artifacts:
+    # ⋮
+    paths:
+    - $HOME/report.html
+    - $HOME/screenshot/

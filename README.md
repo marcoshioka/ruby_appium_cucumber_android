@@ -33,6 +33,7 @@ Realizadas essas configurações, na raíz do projeto inserir o comando bundle p
 - Foi criado um .gitignore para não subir os prints e eventuais vídeos para o repositório
 - Foram adicionados alguns logs aos métodos da automação, para exibir mensagens no console durante a execução
 - O teste é executável em devices físicos (Android 10) e emuladores Android
+- Ao final de cada step é salvo um print no diretório "screenshot", e caso o cenário falhe, é salvo um print da tela (failed.png) 
 
 #### Como executar os testes:
 **Para executar todas as features do projeto usando emulador, o comando é:**
