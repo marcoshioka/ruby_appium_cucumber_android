@@ -72,5 +72,5 @@ addons:
   artifacts:
     # ⋮
     paths:
-    - $HOME/report.html
-    - $HOME/screenshot/
+    - report.html
+    - screenshot/
